@@ -1,0 +1,5 @@
+X=int(input())
+Y=int(input())
+Z=X*Y
+Z=Z/12
+print('%.3f' % Z)
