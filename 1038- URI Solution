@@ -1,0 +1,18 @@
+X, Y = map(int, input().split())
+
+if X>0 and X<=5:
+    if X==1:
+        C=Y*4.00
+        print("Total: R$ "+format(C,".2f"))
+    if X==2:
+        C=Y*4.50
+        print("Total: R$ "+format(C,".2f"))
+    if X==3:
+        C=Y*5.00
+        print("Total: R$ "+format(C,".2f"))
+    if X==4:
+        C=Y*2.00
+        print("Total: R$ "+format(C,".2f"))
+    if X==5:
+        C=Y*1.50
+        print("Total: R$ "+format(C,".2f"))
