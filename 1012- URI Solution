@@ -1,0 +1,11 @@
+A, B, C = map(float, input().split())
+rt = (1 / 2) * A * C
+c = 3.14159 * C * C
+t = (A + B) / 2 * C
+s = B * B
+r = A * B
+print("TRIANGULO: " + format(rt, ".3f"))
+print("CIRCULO: " + format(c, ".3f"))
+print("TRAPEZIO: " + format(t, ".3f"))
+print("QUADRADO: " + format(s, ".3f"))
+print("RETANGULO: " + format(r, ".3f"))
