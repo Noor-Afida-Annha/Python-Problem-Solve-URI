@@ -1,0 +1,42 @@
+s=float(input())
+
+if s>=0 and s<=400.00:
+    r_g=(15*s)/100
+    n_s=r_g+s
+    p=15
+    print("Novo salario: "+format(n_s,".2f"))
+    print("Reajuste ganho: "+format(r_g,".2f"))
+    print(f"Em percentual: {p} %")
+
+if s>=400.01 and s<=800.00:
+    r_g=(12*s)/100
+    n_s=r_g+s
+    p=12
+    print("Novo salario: "+format(n_s,".2f"))
+    print("Reajuste ganho: "+format(r_g,".2f"))
+    print(f"Em percentual: {p} %")
+
+
+if s>=800.01 and s<=1200.00:
+    r_g=(10*s)/100
+    n_s=r_g+s
+    p=10
+    print("Novo salario: "+format(n_s,".2f"))
+    print("Reajuste ganho: "+format(r_g,".2f"))
+    print(f"Em percentual: {p} %")
+
+if s>=1200.01 and s<=2000.00:
+    r_g=(7*s)/100
+    n_s=r_g+s
+    p=7
+    print("Novo salario: "+format(n_s,".2f"))
+    print("Reajuste ganho: "+format(r_g,".2f"))
+    print(f"Em percentual: {p} %")
+
+if s>2000.00:
+    r_g=(4*s)/100
+    n_s=r_g+s
+    p=4
+    print("Novo salario: "+format(n_s,".2f"))
+    print("Reajuste ganho: "+format(r_g,".2f"))
+    print(f"Em percentual: {p} %")
