@@ -1,0 +1,6 @@
+name=input()
+salary=float(input())
+sold=float(input())
+sold = ((15 * sold) / 100)
+TOTAL = (sold + salary)
+print("TOTAL = R$ {:.2f}".format(TOTAL))
