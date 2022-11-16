@@ -1,0 +1,15 @@
+N=int(input())
+for i in range(N):
+    X = int(input())
+    if X % 2 != 0:
+        if (X > 0):
+          print("ODD POSITIVE")
+        else:
+            print("ODD NEGATIVE")
+    if X % 2 == 0:
+        if (X > 0):
+            print("EVEN POSITIVE")
+        elif X==0:
+            print("NULL")
+        else:
+            print("EVEN NEGATIVE")
