@@ -1,0 +1,8 @@
+c_p=2002
+while True:
+    g_p=int(input())
+    if g_p==c_p:
+        print("Acesso Permitido")
+        break
+    else:
+        print("Senha Invalida")
