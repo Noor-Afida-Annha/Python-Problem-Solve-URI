@@ -1,0 +1,29 @@
+x1=0
+y1=0
+d=0
+i=0
+t1=""
+while True:
+    x,y=map(int,input().split())
+    print("Novo grenal (1-sim 2-nao)")
+    y_n=int(input())
+    if x>y:
+        x1+=1
+    if x<y:
+        y1+=1
+    if x==y:
+        d+=1
+    if x1>y1:
+        t1="Inter"
+    if y1>x1:
+        t1="Gremio"
+    i+=1
+    if y_n==1:
+        continue
+    if y_n==2:
+        break
+print(f"{i} grenais")
+print(f"Inter:{x1}")
+print(f"Gremio:{y1}")
+print(f"Empates:{d}")
+print(f"{t1} venceu mais")
