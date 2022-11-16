@@ -1,0 +1,7 @@
+n=int(input())
+for i in range(10):
+    if i==0:
+        print(f"N[{i}] = {n}")
+    else:
+        print(f"N[{i}] = {n*2}")
+        n = n * 2
