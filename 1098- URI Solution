@@ -1,0 +1,14 @@
+b=1
+i=0
+while i<=2:
+     j = b
+     k=1
+     while k<=3:
+         if i==0 or i==1 or i>1.9:
+             print(f"I={format(i,'.0f')} J={format(j,'.0f')}")
+         else:
+             print(f"I={format(i,'.1f')} J={format(j,'.1f')}")
+         j+=1
+         k+=1
+     i=i+0.2
+     b+=0.2
