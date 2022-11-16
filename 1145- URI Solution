@@ -1,0 +1,15 @@
+x,y=map(int,input().split())
+a=y+1
+if x>1 and x<20 and x<y and y<100000:
+    j = 0
+    i = 1
+    while i<=y:
+        j += 1
+        if j==x:
+            print(i)
+            j = 0
+        else:
+            print(i,end=" ")
+        if i==a:
+            break
+        i += 1
