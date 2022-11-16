@@ -1,0 +1,21 @@
+p=[]
+i_p=[]
+for i in range(15):
+     x = int(input())
+     if x%2==0:
+          p.append(x)
+          if len(p)==5:
+               for j in range(5):
+                    print(f"par[{j}] = {p[j]}")
+               p = []
+
+     if x%2!=0:
+          i_p.append(x)
+          if len(i_p)==5:
+               for k in range(5):
+                    print(f"impar[{k}] = {i_p[k]}")
+               i_p = []
+for l in range(len(i_p)):
+     print(f"impar[{l}] = {i_p[l]}")
+for m in range(len(p)):
+     print(f"par[{m}] = {p[m]}")
