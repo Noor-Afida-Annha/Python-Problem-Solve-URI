@@ -1,0 +1,11 @@
+s=0
+j=2
+i=3
+while True:
+    s=s+(i/j)
+    j*=2
+    i+=2
+    if i==39:
+        break
+
+print(format(1+s,".2f"))
