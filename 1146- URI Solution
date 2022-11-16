@@ -1,0 +1,13 @@
+while True:
+    x=int(input())
+    i=1
+    if x==0:
+        break
+    else:
+        while i<=x:
+            if i==x:
+                print(i)
+            else:
+                print(i,end=" ")
+
+            i+=1
