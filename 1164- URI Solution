@@ -1,0 +1,15 @@
+n=int(input())
+j=1
+s=0
+for i in range(n):
+    x=int(input())
+    while j<=x-1:
+        if x%j==0:
+            s+=j
+        j+=1
+    if s==x:
+        print(f"{x} eh perfeito")
+    else:
+        print(f"{x} nao eh perfeito")
+    s=0
+    j=1
