@@ -1,0 +1,21 @@
+while True:
+    i=0
+    s=0
+    m=0
+    while i<2:
+        n=float(input())
+        if n>=0 and n<=10:
+            i+=1
+            s+=n
+        else:
+            print("nota invalida")
+    m=s/2
+    print(f"media = {format(m,'.2f')}")
+    x=0
+    while True:
+            print("novo calculo (1-sim 2-nao)")
+            x=int(input())
+            if x == 2 or x == 1:
+                break
+    if x==2:
+        break
