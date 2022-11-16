@@ -1,0 +1,49 @@
+n=int(input())
+z=6
+o=2
+tw=5
+th=5
+f=4
+fi=5
+s=6
+se=3
+e=7
+ni=6
+for i in range(n):
+    s0 = 0
+    s1=0
+    s2=0
+    s3=0
+    s4=0
+    s5=0
+    s6=0
+    s7=0
+    s8=0
+    s9=0
+    v=input()
+    x=v.split()
+    for j in range(len(v)):
+
+        if v[j]=='0':
+            s0+=z
+        if v[j]=='1':
+            s1+=o
+        if v[j]=='2':
+            s2+=tw
+        if v[j]=='3':
+            s3+=th
+        if v[j]=='4':
+            s4+=f
+        if v[j]=='5':
+            s5+=fi
+        if v[j]=='6':
+            s6+=s
+        if v[j]=='7':
+            s7+=se
+        if v[j]=='8':
+            s8+=e
+        if v[j]=='9':
+            s9+=ni
+    a = (s0 + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9)
+    print(f"{a} leds")
+    a=0
