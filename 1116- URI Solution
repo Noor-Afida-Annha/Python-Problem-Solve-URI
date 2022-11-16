@@ -1,0 +1,11 @@
+n=int(input())
+d=0
+for i in range(n):
+    try:
+        x,y=map(int,input().split())
+        d=x/y
+        if x>y or y>x or x==y:
+            print(format(d,".1f"))
+
+    except ZeroDivisionError:
+            print("divisao impossivel")
