@@ -1,0 +1,17 @@
+n=int(input())
+j=2
+s=0
+for i in range(n):
+    x=int(input())
+    if x>=1 and x<=10000000:
+        while j<=x/2:
+            if x%j==0:
+                s=1
+                break
+            j+=1
+        if s==0:
+            print(f"{x} eh primo")
+        else:
+            print(f"{x} nao eh primo")
+    s=0
+    j=2
