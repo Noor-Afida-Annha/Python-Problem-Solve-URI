@@ -1,0 +1,23 @@
+def read():
+    N=input()
+    return N
+def buildarray123(N):
+    N=int(N)
+    for j in range(0,N):
+        for k  in range(0,N):
+            if j+k==(N-1):
+                print("2",end='')
+            elif j==k:
+                print("1",end='')
+            else:
+                print("3",end='')
+        print()
+    return
+N=read()
+while True:
+    try:
+        if int(N)>=3 and int(N)<70:
+            buildarray123(N)
+            N=read()
+    except EOFError:
+        break
