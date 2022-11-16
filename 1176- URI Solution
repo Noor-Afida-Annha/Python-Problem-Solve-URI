@@ -1,0 +1,21 @@
+f=[0,1]
+a=0
+b=1
+t=int(input())
+for j in range(2,60):
+     c=a+b
+     f.append(c)
+     a=b
+     b=c
+
+for i in range(t):
+     n = int(input())
+     x=n-1
+     z=n-2
+     if n==0:
+          print(f"Fib({n}) = {0}")
+     if n==1:
+          print(f"Fib({n}) = {1}")
+     if n>1:
+          fi=f[x]+f[z]
+          print(f"Fib({n}) = {fi}")
