@@ -1,0 +1,16 @@
+i=0
+s=0
+m=0
+while True:
+    n=float(input())
+    a=n
+    if n>=0 and n<=10:
+        i+=1
+        s+=a
+        if i==2:
+            m=s/2
+            print(f"media = {format(m,'.2f')}")
+            break
+
+    else:
+        print("nota invalida")
