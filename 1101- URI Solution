@@ -1,0 +1,20 @@
+while True:
+    s1 = 0
+    s2 = 0
+    x,y=map(int,input().split())
+    if (x <=0 or y <=0):
+        break
+    if  x >y:
+        i=y
+        while i<=x:
+            print(i,end=" ")
+            s1+=i
+            i += 1
+        print(f"Sum={s1}")
+    if y > x:
+        j = x
+        while j <= y:
+            print(j,end=" ")
+            s2 += j
+            j += 1
+        print(f"Sum={s2}")
