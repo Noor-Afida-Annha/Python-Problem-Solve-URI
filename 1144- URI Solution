@@ -1,0 +1,7 @@
+n=int(input())
+j=1
+if n>1 and n<1000:
+    for i in range(n):
+           print(j,j*j,j*j*j)
+           print(j,j*j+1,j*j*j+1)
+           j+=1
